@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+google-genai
+python-dotenv
+python-multipart
+pandas
+openpyxl
+httpx
