@@ -10,7 +10,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from backend.database import SessionLocal, Order, Customer, Product, Expense
 
 def run_weekly_automation():
-    print(f"🚀 Otonom İşleme Başlatıldı: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"🚀 Otomasyon Başlatıldı: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     db = SessionLocal()
     
     try:
